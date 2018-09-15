@@ -1,0 +1,17 @@
+C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilTest\bin\Debug\netcoreapp2.1\BilletOpgTest.deps.json
+C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilTest\bin\Debug\netcoreapp2.1\BilletOpgTest.runtimeconfig.json
+C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilTest\bin\Debug\netcoreapp2.1\BilletOpgTest.runtimeconfig.dev.json
+C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilTest\bin\Debug\netcoreapp2.1\BilletOpgTest.dll
+C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilTest\bin\Debug\netcoreapp2.1\BilletOpgTest.pdb
+C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilTest\bin\Debug\netcoreapp2.1\BilletOpg.dll
+C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilTest\bin\Debug\netcoreapp2.1\BilletOpg.pdb
+C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilTest\obj\Debug\netcoreapp2.1\BilletOpgTest.csprojAssemblyReference.cache
+C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilTest\obj\Debug\netcoreapp2.1\BilletOpgTest.csproj.CoreCompileInputs.cache
+C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilTest\obj\Debug\netcoreapp2.1\BilletOpgTest.AssemblyInfoInputs.cache
+C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilTest\obj\Debug\netcoreapp2.1\BilletOpgTest.AssemblyInfo.cs
+C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilTest\obj\Debug\netcoreapp2.1\BilletOpgTest.csproj.CopyComplete
+C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilTest\obj\Debug\netcoreapp2.1\BilletOpgTest.dll
+C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilTest\obj\Debug\netcoreapp2.1\BilletOpgTest.pdb
