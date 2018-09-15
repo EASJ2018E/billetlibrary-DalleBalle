@@ -15,3 +15,4 @@ C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilTest\obj\Debug\netcoreapp2.1\Bi
 C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilTest\obj\Debug\netcoreapp2.1\BilletOpgTest.csproj.CopyComplete
 C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilTest\obj\Debug\netcoreapp2.1\BilletOpgTest.dll
 C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilTest\obj\Debug\netcoreapp2.1\BilletOpgTest.pdb
+C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilTest\bin\Debug\netcoreapp2.1\BilletOpg.xml

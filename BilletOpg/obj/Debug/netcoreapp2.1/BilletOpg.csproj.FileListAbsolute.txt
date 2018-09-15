@@ -7,3 +7,4 @@ C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilletOpg\obj\Debug\netcoreapp2.1\
 C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilletOpg\obj\Debug\netcoreapp2.1\BilletOpg.AssemblyInfo.cs
 C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilletOpg\obj\Debug\netcoreapp2.1\BilletOpg.dll
 C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilletOpg\obj\Debug\netcoreapp2.1\BilletOpg.pdb
+C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilletOpg\bin\Debug\netcoreapp2.1\BilletOpg.xml

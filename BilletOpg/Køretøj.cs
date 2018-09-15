@@ -26,18 +26,22 @@ namespace BilletOpg
             }
         }
 
+        /// <summary>
+        /// Giver prisen til køretøjet
+        /// </summary>
+        /// <returns></returns>
         public abstract decimal Pris();
+
+        /// <summary>
+        /// Giver typen af køretøjet
+        /// </summary>
+        /// <returns></returns>
         public abstract string Køretøj();
 
         public decimal BrobizzRabatPris(decimal pris)
         {
-            if (Brobizz)
-            {
-                decimal rabat = pris * (decimal) 0.05;
-                return pris - rabat;
-            }
-
-            return pris;
+            decimal rabat = pris * (decimal) 0.05;
+            return pris - rabat;
         }
     }
 }

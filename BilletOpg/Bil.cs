@@ -11,11 +11,24 @@ namespace BilletOpg
             Brobizz = brobizz;
         }
 
+        /// <summary>
+        /// Giver prisen på køretøjet
+        /// </summary>
+        /// <returns></returns>
         public override decimal Pris()
         {
-            return BrobizzRabatPris(240);
+            if (Brobizz)
+            {
+                return BrobizzRabatPris(240);
+            }
+
+            return 240;
         }
 
+        /// <summary>
+        /// Giver typen af køretøjet
+        /// </summary>
+        /// <returns></returns>
         public override string Køretøj()
         {
             return "Bil";

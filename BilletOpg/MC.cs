@@ -13,11 +13,24 @@ namespace BilletOpg
             Brobizz = brobizz;
         }
 
+        /// <summary>
+        /// Retunerer prisen med brobizz rabat.
+        /// </summary>
+        /// <returns></returns>
         public override decimal Pris()
         {
-            return BrobizzRabatPris(125);
+            if (Brobizz)
+            {
+                return BrobizzRabatPris(125);
+            }
+
+            return 125;
         }
 
+        /// <summary>
+        /// Giver typen af køretøjet
+        /// </summary>
+        /// <returns></returns>
         public override string Køretøj()
         {
             return "MC";

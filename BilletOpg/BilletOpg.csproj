@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Git\BilletLibrary\billetlibrary-DalleBalle\BilletOpg\BilletOpg.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>
