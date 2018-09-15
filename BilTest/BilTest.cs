@@ -26,5 +26,18 @@ namespace BilletOpgTest
         {
             Assert.AreEqual("Bil", _nyBil.Køretøj());
         }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void ForLangNummerplade()
+        {
+            new Bil("ABC12345", new DateTime());
+        }
+
+        [TestMethod]
+        public void KorrektNummerplade()
+        {
+            Assert.AreEqual("AB12345", _nyBil.Nummerplade);
+        }
     }
 }
