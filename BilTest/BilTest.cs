@@ -12,7 +12,7 @@ namespace BilletOpgTest
         [TestInitialize]
         public void Initialize()
         {
-            _nyBil = new Bil("AB12345", new DateTime());
+            _nyBil = new Bil("AB12345", new DateTime(), false);
         }
         
         [TestMethod]
@@ -31,13 +31,21 @@ namespace BilletOpgTest
         [ExpectedException(typeof(ArgumentException))]
         public void ForLangNummerplade()
         {
-            new Bil("ABC12345", new DateTime());
+            new Bil("ABC12345", new DateTime(), false);
         }
 
         [TestMethod]
         public void KorrektNummerplade()
         {
             Assert.AreEqual("AB12345", _nyBil.Nummerplade);
+        }
+
+        [TestMethod]
+        public void PrisMedBrobizz()
+        {
+            Bil brobizzBil = new Bil("AB12345", new DateTime(), true);
+
+            Assert.AreEqual(228, brobizzBil.Pris());
         }
     }
 }

@@ -6,15 +6,16 @@ namespace BilletOpg
 {
     public class MC : KøretøjKlasse
     {
-        public MC(string nummerplade, DateTime dato)
+        public MC(string nummerplade, DateTime dato, bool brobizz)
         {
             Nummerplade = nummerplade;
             Dato = dato;
+            Brobizz = brobizz;
         }
 
         public override decimal Pris()
         {
-            return 125;
+            return BrobizzRabatPris(125);
         }
 
         public override string Køretøj()

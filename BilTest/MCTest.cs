@@ -12,7 +12,7 @@ namespace BilletOpgTest
         [TestInitialize]
         public void Initialize()
         {
-            _nyMC = new MC("AB12345", new DateTime());
+            _nyMC = new MC("AB12345", new DateTime(), false);
         }
         
         [TestMethod]
@@ -25,6 +25,14 @@ namespace BilletOpgTest
         public void RigtigKøretøj()
         {
             Assert.AreEqual("MC", _nyMC.Køretøj());
+        }
+
+        [TestMethod]
+        public void PrisMedBrobizz()
+        {
+            MC brobizzMC = new MC("AB12345", new DateTime(), true);
+
+            Assert.AreEqual((decimal) 118.75, brobizzMC.Pris());
         }
     }
 }

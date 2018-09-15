@@ -8,6 +8,7 @@ namespace BilletOpg
     {
         private string _nummerplade;
         public DateTime Dato;
+        public bool Brobizz;
 
         public string Nummerplade
         {
@@ -28,5 +29,15 @@ namespace BilletOpg
         public abstract decimal Pris();
         public abstract string Køretøj();
 
+        public decimal BrobizzRabatPris(decimal pris)
+        {
+            if (Brobizz)
+            {
+                decimal rabat = pris * (decimal) 0.05;
+                return pris - rabat;
+            }
+
+            return pris;
+        }
     }
 }
