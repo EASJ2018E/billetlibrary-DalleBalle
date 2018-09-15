@@ -4,23 +4,20 @@ using System.Text;
 
 namespace BilletOpg
 {
-    public class MC
+    public class MC : KøretøjKlasse
     {
-        public string Nummerplade;
-        public DateTime Dato;
-
         public MC(string nummerplade, DateTime dato)
         {
             Nummerplade = nummerplade;
             Dato = dato;
         }
 
-        public decimal Pris()
+        public override decimal Pris()
         {
             return 125;
         }
 
-        public string Køretøj()
+        public override string Køretøj()
         {
             return "MC";
         }

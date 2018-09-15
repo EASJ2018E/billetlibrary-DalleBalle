@@ -2,23 +2,20 @@
 
 namespace BilletOpg
 {
-    public class Bil
+    public class Bil : KøretøjKlasse
     {
-        public string Nummerplade;
-        public DateTime Dato;
-
         public Bil(string nummerplade, DateTime dato)
         {
             Nummerplade = nummerplade;
             Dato = dato;
         }
 
-        public decimal Pris()
+        public override decimal Pris()
         {
             return 240;
         }
 
-        public string Køretøj()
+        public override string Køretøj()
         {
             return "Bil";
         }
