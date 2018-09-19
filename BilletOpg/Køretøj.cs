@@ -38,10 +38,17 @@ namespace BilletOpg
         /// <returns></returns>
         public abstract string Køretøj();
 
+        /// <summary>
+        /// Brobizz Rabat returnere prisen med 5% rabat
+        /// </summary>
+        /// <param name="pris"></param>
+        /// <returns></returns>
         public decimal BrobizzRabatPris(decimal pris)
         {
-            decimal rabat = pris * (decimal) 0.05;
-            return pris - rabat;
+            //decimal rabat = pris * (decimal) 0.05;
+            //return pris - rabat;
+
+            return pris * (decimal)0.95;
         }
     }
 }
