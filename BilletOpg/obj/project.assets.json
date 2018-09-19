@@ -681,23 +681,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Daniel\\.nuget\\packages\\": {},
+    "C:\\Users\\Sander\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\BilletLibrary\\billetlibrary-DalleBalle\\BilletOpg\\BilletOpg.csproj",
+      "projectUniqueName": "C:\\source\\Programming\\TestReview\\PullRequestTest\\BilletOpg\\BilletOpg.csproj",
       "projectName": "BilletOpg",
-      "projectPath": "C:\\Git\\BilletLibrary\\billetlibrary-DalleBalle\\BilletOpg\\BilletOpg.csproj",
-      "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\BilletLibrary\\billetlibrary-DalleBalle\\BilletOpg\\obj\\",
+      "projectPath": "C:\\source\\Programming\\TestReview\\PullRequestTest\\BilletOpg\\BilletOpg.csproj",
+      "packagesPath": "C:\\Users\\Sander\\.nuget\\packages\\",
+      "outputPath": "C:\\source\\Programming\\TestReview\\PullRequestTest\\BilletOpg\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sander\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

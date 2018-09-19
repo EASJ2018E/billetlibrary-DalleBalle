@@ -40,8 +40,10 @@ namespace BilletOpg
 
         public decimal BrobizzRabatPris(decimal pris)
         {
-            decimal rabat = pris * (decimal) 0.05;
-            return pris - rabat;
+            //decimal rabat = pris * (decimal) 0.05;
+            //return pris - rabat;
+
+            return pris * (decimal)0.95;
         }
     }
 }
