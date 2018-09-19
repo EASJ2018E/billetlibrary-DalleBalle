@@ -5739,23 +5739,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Daniel\\.nuget\\packages\\": {},
+    "C:\\Users\\Sander\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\BilletLibrary\\billetlibrary-DalleBalle\\BilTest\\BilletOpgTest.csproj",
+      "projectUniqueName": "C:\\source\\Programming\\TestReview\\PullRequestTest\\BilTest\\BilletOpgTest.csproj",
       "projectName": "BilletOpgTest",
-      "projectPath": "C:\\Git\\BilletLibrary\\billetlibrary-DalleBalle\\BilTest\\BilletOpgTest.csproj",
-      "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\BilletLibrary\\billetlibrary-DalleBalle\\BilTest\\obj\\",
+      "projectPath": "C:\\source\\Programming\\TestReview\\PullRequestTest\\BilTest\\BilletOpgTest.csproj",
+      "packagesPath": "C:\\Users\\Sander\\.nuget\\packages\\",
+      "outputPath": "C:\\source\\Programming\\TestReview\\PullRequestTest\\BilTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sander\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5768,8 +5768,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Git\\BilletLibrary\\billetlibrary-DalleBalle\\BilletOpg\\BilletOpg.csproj": {
-              "projectPath": "C:\\Git\\BilletLibrary\\billetlibrary-DalleBalle\\BilletOpg\\BilletOpg.csproj"
+            "C:\\source\\Programming\\TestReview\\PullRequestTest\\BilletOpg\\BilletOpg.csproj": {
+              "projectPath": "C:\\source\\Programming\\TestReview\\PullRequestTest\\BilletOpg\\BilletOpg.csproj"
             }
           }
         }
